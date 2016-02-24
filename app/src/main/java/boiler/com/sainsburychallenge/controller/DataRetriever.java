@@ -29,6 +29,7 @@ public class DataRetriever {
         new HttpDownloader().execute();
     }
 
+    // HttpDownloader downloads HTTP site and parse it and returns the list of products
     private class HttpDownloader extends AsyncTask<Void, Void, List<Product>> {
 
         @Override

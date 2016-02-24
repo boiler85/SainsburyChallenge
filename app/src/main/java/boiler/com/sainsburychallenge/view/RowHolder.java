@@ -15,6 +15,8 @@ import boiler.com.sainsburychallenge.utils.ImageLoaderSingleton;
 /**
  * Created by lenowo on 2016-01-18.
  */
+
+// View representation of a single row
 public class RowHolder extends RecyclerView.ViewHolder {
 
     private final NetworkImageView mThumbnail;

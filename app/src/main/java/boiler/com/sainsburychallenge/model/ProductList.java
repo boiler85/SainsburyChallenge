@@ -6,6 +6,8 @@ import java.util.List;
 /**
  * Created by lenowo on 2016-02-23.
  */
+
+// Model representation of a list of products, it counts the overall value of all products
 public class ProductList {
     private final List<Product> mProducts;
     private double mOverallPrice;

@@ -3,6 +3,8 @@ package boiler.com.sainsburychallenge.model;
 /**
  * Created by lenowo on 2016-01-18.
  */
+
+// Model representation of a single Product
 public class Product {
 
     private final String mTitle;

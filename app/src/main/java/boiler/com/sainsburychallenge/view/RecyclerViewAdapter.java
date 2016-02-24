@@ -13,6 +13,8 @@ import boiler.com.sainsburychallenge.R;
 /**
  * Created by lenowo on 2016-01-18.
  */
+
+// Adapter for the list (RecyclerView)
 public class RecyclerViewAdapter extends RecyclerView.Adapter<RowHolder> {
 
     private final ProductList mProductList;
@@ -26,8 +28,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RowHolder> {
     @Override
     public RowHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.row, null);
-        RowHolder holder = new RowHolder(v);
-        return holder;
+        return new RowHolder(v);
     }
 
     @Override

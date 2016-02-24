@@ -9,6 +9,8 @@ import com.android.volley.toolbox.Volley;
 /**
  * Created by lenowo on 2016-01-18.
  */
+
+// A singleton for loading images from web
 public class ImageLoaderSingleton {
 
     private static ImageLoaderSingleton mInstance;
